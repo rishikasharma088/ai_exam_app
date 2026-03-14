@@ -1,3 +1,4 @@
+import 'login_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'AI Exam Preparation App',
       debugShowCheckedModeBanner: false,
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
